@@ -30,7 +30,6 @@ namespace CadasstroCliente
             tabela.Rows.Add(registro);
 
             dataset.WriteXml(@"c:\bk\xml\cliente_" + txtCodigo.Text + ".xml");
-
         }
 
         private DataRow CriarRegistro(DataTable tabela)
